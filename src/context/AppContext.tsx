@@ -51,9 +51,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     const demoUsers: User[] = [
       {
         id: '1',
-        name: 'John Doe',
-        email: 'john@example.com',
-        phone: '+1234567890',
+        name: 'Aman Anand',
+        email: 'aman@example.com',
+        phone: '+5284669810',
         avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400',
         friends: ['2', '3'],
         notificationsEnabled: true,
@@ -65,8 +65,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       },
       {
         id: '2',
-        name: 'Jane Smith',
-        email: 'jane@example.com',
+        name: 'Shubham Anand',
+        email: 'Shubham@example.com',
         phone: '+1234567891',
         avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400',
         friends: ['1'],
@@ -79,8 +79,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       },
       {
         id: '3',
-        name: 'Mike Johnson',
-        email: 'mike@example.com',
+        name: 'Ravi Bhai',
+        email: 'Ravi@example.com',
         phone: '+1234567892',
         avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
         friends: ['1'],
